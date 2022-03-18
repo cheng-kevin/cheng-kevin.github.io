@@ -21,8 +21,8 @@
     <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet" type="text/css"> 
 
-    
     <link href="/css/grayscale.min.css" rel="stylesheet">
 
     
@@ -40,8 +40,6 @@ if (!doNotTrack) {
 
     </head>
 
-
-
     <body id="page-top">
     <nav class="nav nav-tabs navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
@@ -51,36 +49,42 @@ if (!doNotTrack) {
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto"><li class="nav-item">
+          <ul class="navbar-nav ml-auto">
+              
+              <li class="nav-item">
                   <a class="nav-link js-scroll-trigger" href="#wedding">wedding</a>
                 </li><li class="nav-item">
                   <a class="nav-link js-scroll-trigger" href="#aboutus">about us</a>
-                </li><li class="nav-item">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#aboutus">RSVP</a>
+                </li>
         </div>
       </div>
     </nav>
 
-   
 
-        <header class="masthead">
-          <div class="intro-body">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-8 mx-auto">
-                  <div class="improve-contrast-box">
-                    <h1 class="brand-heading">Kristine & Kevin</h1>
-                    <p class="intro-text"> <i class='fa fa-calendar'></i> Nov 5 2022 <i class='fa fa-clock-o'></i>  4:00pm </p>
-                  </div>
-                  <a href="#venue" class="btn btn-circle js-scroll-trigger">
-                    <i class="fa fa-angle-double-down animated"></i>
-                  </a>
-                </div>
+    <!-- wedding section -->
+
+    <header class="masthead hidden" id="wedding">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="">
+                <h1 class="brand-heading">Kristine & Kevin</h1>
+                <p class="intro-text"> <i class='fa fa-calendar'></i> Nov 5 2022 <i class='fa fa-clock-o'></i>  4:00pm </p>
               </div>
+              <a href="#venue" class="btn btn-circle js-scroll-trigger">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
             </div>
           </div>
-        </header>
-        
+        </div>
+      </div>
+    </header>
 
+    <div id="wedding">
         <section id="venue" class="content-section">
           <div class="container">
             <div class="row">
@@ -135,7 +139,86 @@ if (!doNotTrack) {
             </div>
           </div>
         </section>    
+      </div>
 
+        <!-- about us section -->
+        <header class="masthead hidden" id="aboutus">
+          <div class="intro-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 mx-auto">
+                  <div class="improve-contrast-box">
+                    <h1 class="brand-heading">About Us</h1>
+                  </div>
+                  <a href="#venue" class="btn btn-circle js-scroll-trigger">
+                    <i class="fa fa-angle-double-down animated"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+    
+        <div id="aboutus">
+            <section id="abouttext" class="content-section">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 mx-auto">
+                    <h2>About</h2>
+                    <p>We met at UC San Diego</p>
+                    <p>Been together for over 10 years</p>
+                    <p>Traveled to 10? different countries</p>
+                  </div>
+                </div>
+              </div>
+            </section><section id="" class="experience-section content-section text-center wrapper">
+              <div class="container">
+                <div class="col-lg-8 mx-auto">
+                    <div class="improve-contrast-box">
+                        <h4>Throughout the years</h4>
+                        <p>Some photos of us throughout the years</p>
+                    </div>
+                </div>
+              </div>
+            </section>
+    
+          
+            <div class="container">
+                <div class="col-lg-8 mx-auto">
+                  <div class="content-section">
+                      <h4>Travel Videos</h4>
+                      <p>Here's some of our travel videos</p>
+                  </div>
+                </div>
+            </div><section id="RSVP" class="download-section content-section text-center wrapper">
+              <div class="container">
+                <div class="col-lg-8 mx-auto">
+                    <div class="improve-contrast-box">
+                      <h2>Engagement</h2>
+                      <p>Some engagement photos will go here</p>
+                    </div>
+                </div>
+              </div>
+            </section>
+            <!-- <section id="contact" class="content-section text-center">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 mx-auto">
+                    <h2>Registry</h2>
+                    <p><p>We don't have a house to put anything, but if you are feeling generous, we have a honeyfund<a href="http://startbootstrap.com/template-overviews/grayscale/"></p></p><ul class="list-inline banner-social-buttons"><li class="list-inline-item">
+                      </li><li class="list-inline-item">
+                          <a href="mailto:kevinx1@gmail.com" class="btn btn-default btn-lg">
+                            <i class="fa fa-google fa-fw"></i>
+                            <span class="network-name">HoneyFund</span>
+                          </a>
+                      </li>
+                    </ul></div>
+                </div>
+              </div>
+            </section>     -->
+          </div>
+
+        <!-- end about us -->
     <footer>
       <div class="container text-center">
         <p>Copyright &copy; kevstine 2022 </p>
@@ -148,6 +231,6 @@ if (!doNotTrack) {
 
     
     <script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="/js/grayscale.min.js"></script>
+    <script src="/js/grayscale.js"></script>
 </body>
 </html>
