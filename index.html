@@ -15,13 +15,16 @@
     <meta name="generator" content="Hugo 0.56.0">
 
     
-    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <!-- <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
     <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet" type="text/css"> 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <link href="/css/grayscale.min.css" rel="stylesheet">
 
@@ -53,11 +56,12 @@ if (!doNotTrack) {
               
               <li class="nav-item">
                   <a class="nav-link js-scroll-trigger" href="#wedding">wedding</a>
-                </li><li class="nav-item">
+                </li>
+                <li class="nav-item">
                   <a class="nav-link js-scroll-trigger" href="#aboutus">about us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#aboutus">RSVP</a>
+                  <a class="nav-link js-scroll-trigger" href="#RSVP">RSVP</a>
                 </li>
         </div>
       </div>
@@ -66,55 +70,138 @@ if (!doNotTrack) {
 
     <!-- wedding section -->
 
-    <header class="masthead hidden" id="wedding">
+    <header class="intro masthead hidden" id="wedding">
       <div class="intro-body">
         <div class="container">
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="">
-                <h1 class="brand-heading">Kristine & Kevin</h1>
-                <p class="intro-text"> <i class='fa fa-calendar'></i> Nov 5 2022 <i class='fa fa-clock-o'></i>  4:00pm </p>
+                <h1 class="brand-heading">Kristine</h1>
+                <h1 class="brand-heading">& Kevin</h1>
+                <p class="intro-text"> <i class='fa fa-calendar'></i>  Nov 5 2022 <i class='fa fa-clock-o'></i>  4:00pm </p>
+                <p class="intro-text"> Yorba Linda, CA </p>
               </div>
-              <a href="#venue" class="btn btn-circle js-scroll-trigger">
+              <!-- <a href="#venue" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i>
-              </a>
+              </a> -->
             </div>
           </div>
-        </div>
+        </div>s
       </div>
     </header>
 
-    <div id="wedding">
-        <section id="venue" class="content-section">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <h2>Venue</h2>
-                <b>Richard Nixon Presidential Library</b>
-                <p href="https://goo.gl/maps/YMQ3sVNwhT5rmCoX7"><i class="fa fa-map-pin"></i>  18001 Yorba Linda Blvd, Yorba Linda, CA 92886</p>
+    <div id="logistics">
+
+      <section id="hotel" class="content-section text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2>Venue</h2>
+              <h1>Richard Nixon Library</h1>
+              <h5>18001 Yorba Linda Blvd, Yorba Linda, CA 92886</h5>
+              <p>Please arrive by 4:00pm to the Library. Parking is ample and <br>free but driving is not recommended as we have an open bar!</p>
+                  <a href="https://goo.gl/maps/YMQ3sVNwhT5rmCoX7" class="btn btn-default btn-lg">
+                    <span>Google Maps</span>
+                  </a>
+             </div>
+          </div>
+        </div>
+      </section>    
+
+      <hr>
+
+        <section id="hotel" class="content-section text-center">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 mx-auto">
+                  <h2>Hotel</h2>
+                  <h1>Embassy Suites Brea</h1>
+                  <h4>900 E Birch St, Brea, CA 92821 </h4>
+                  <p>We have a reserved a room block with discounted rates</p>
+                      <a href="https://www.my-event.hilton.com/laxbres-xng-1e4bea53-2a2a-4377-bd3e-1e1566083733" class="btn btn-default btn-lg">
+                        <span>Room Block</span>
+                      </a>
+
+                      <a href="https://goo.gl/maps/ThqHaArir53Jrd61A" class="btn btn-default btn-lg">
+                        <span>Google Maps</span>
+                      </a>
+
+
+                      
+                 </div>
               </div>
             </div>
+          </section>    
+
+
+          <!-- <div class="container">
+
+              <div class="row textitem">
+                <h2>Venue</h2>
+                <b>Richard Nixon Presidential Library</b>
+                <p><a href="https://goo.gl/maps/YMQ3sVNwhT5rmCoX7"><i class="fa fa-map-pin"></i>  18001 Yorba Linda Blvd, Yorba Linda, CA 92886</a></p>
+              </div>
+              <div class="row textitem">
+                <h2>Hotel</h2>
+                <b>Embassy Suites</b>
+                <p><a href=""><i class="fa fa-map-pin"></i>   </a></p>       
+                <a href="https://www.my-event.hilton.com/laxbres-xng-1e4bea53-2a2a-4377-bd3e-1e1566083733" class="btn btn-default btn-lg">
+                  <span> Room Block</span>
+                </a>
+              </div>
+            </div> -->
+
+        </section>
+        
+        <div id="imagegrid" class="row">
+          <div class="column columnside">
+            <img src="./img/LOVE-260.jpg"/>
           </div>
-        </section><section id="experience" class="experience-section content-section text-center wrapper">
+          <div class="column columncenter">
+            <img src="./img/LOVE-201.jpg"/>
+          </div>
+          <div class="column columnside">
+            <img src="./img/LOVE-82.jpg"/>
+          </div>
+        </div>
+        <!-- <section id="experience" class="experience-section content-section text-center wrapper">
           <div class="container">
             <div class="col-lg-8 mx-auto">
                 <div class="improve-contrast-box">
-                    <h4>Hotel</h4>
-                    <p>We have a room block at the Embassy Suites Brea.</p>
+                    <h4>Picture</h4>
+                    <p>description</p>
                 </div>
+            </div>
+          </div>
+        </section> -->
+
+      
+        <section id="dress" class="content-section text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <h2>Dress</h2>
+                <h1>Formal</h1>
+                <p>Black Tie Optional</p>     
+               </div>
             </div>
           </div>
         </section>
 
-      
-        <div class="container">
-            <div class="col-lg-8 mx-auto">
-              <div class="content-section">
-                  <h4>Dress</h4>
-                  <p>Cocktail, Formal, Tuxedos</p>
-              </div>
-            </div>
-        </div><section id="RSVP" class="download-section content-section text-center wrapper">
+        <div id="imagegrid" class="row">
+          <div class="column columnside">
+            <img src="./img/LOVE-107.jpg"/>
+          </div>
+          <div class="column columncenter">
+            <img src="./img/LOVE-320.jpg"/>
+          </div>
+          <div class="column columnside">
+            <img src="./img/LOVE-298.jpg"/>
+          </div>
+        </div>
+
+        
+        <section id="RSVP" class="content-section text-center wrapper">
           <div class="container">
             <div class="col-lg-8 mx-auto">
                 <div class="improve-contrast-box">
@@ -123,7 +210,9 @@ if (!doNotTrack) {
                 </div>
             </div>
           </div>
-        </section><section id="contact" class="content-section text-center">
+        </section>
+        <hr>
+        <section id="contact" class="content-section text-center">
           <div class="container">
             <div class="row">
               <div class="col-lg-8 mx-auto">
@@ -142,7 +231,7 @@ if (!doNotTrack) {
       </div>
 
         <!-- about us section -->
-        <header class="masthead hidden" id="aboutus">
+        <header class="aboutus masthead hidden" id="aboutus">
           <div class="intro-body">
             <div class="container">
               <div class="row">
@@ -150,7 +239,7 @@ if (!doNotTrack) {
                   <div class="improve-contrast-box">
                     <h1 class="brand-heading">About Us</h1>
                   </div>
-                  <a href="#venue" class="btn btn-circle js-scroll-trigger">
+                  <a href="#aboutus" class="btn btn-circle js-scroll-trigger">
                     <i class="fa fa-angle-double-down animated"></i>
                   </a>
                 </div>
@@ -171,7 +260,48 @@ if (!doNotTrack) {
                   </div>
                 </div>
               </div>
-            </section><section id="" class="experience-section content-section text-center wrapper">
+            </section>
+
+            <div id="carousel" class="carousel .carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/cooking.JPG" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/lake.JPG" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/moroco3.JPG" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            
+            <!-- <section id="" class="years-section content-section text-center wrapper">
               <div class="container">
                 <div class="col-lg-8 mx-auto">
                     <div class="improve-contrast-box">
@@ -181,7 +311,7 @@ if (!doNotTrack) {
                 </div>
               </div>
             </section>
-    
+     -->
           
             <div class="container">
                 <div class="col-lg-8 mx-auto">
@@ -190,7 +320,7 @@ if (!doNotTrack) {
                       <p>Here's some of our travel videos</p>
                   </div>
                 </div>
-            </div><section id="RSVP" class="download-section content-section text-center wrapper">
+            </div><section id="RSVP" class="engagement-section content-section text-center wrapper">
               <div class="container">
                 <div class="col-lg-8 mx-auto">
                     <div class="improve-contrast-box">
