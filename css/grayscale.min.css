@@ -139,7 +139,7 @@ a:focus, a:hover {
   width: 100%;
   height: auto;
   padding: 200px 0;
-  text-align: right;
+  text-align: center;
   color: rgba(0, 0, 0, 0.7);
   /* text-shadow: 2px 2px #414141; */
 }
@@ -147,14 +147,17 @@ a:focus, a:hover {
 .masthead .intro-body {
   display: table-cell;
   vertical-align: middle;
+  
 }
 
 .masthead .intro-body .brand-heading {
   font-size: 50px;
+  margin-left:50%;
 }
 
 .masthead .intro-body .intro-text {
   font-size: 20px;
+  margin-left:50%;
 }
 
 /* .improve-contrast-box {
@@ -368,15 +371,15 @@ hr{
 
 .btn-default {
   color: black;
-  border: 1px solid #000000;
+  border: 1px solid rgba(178,164,106,1);
   background-color: transparent;
 }
 
 .btn-default:focus, .btn-default:hover {
   color: black;
-  border: 1px solid #d8cb10;
+  border: 1px solid rgba(178,164,106,1);
   outline: none;
-  background-color: #d8cb10;
+  background-color: rgba(178,164,106,1);
 }
 
 ul.banner-social-buttons {
