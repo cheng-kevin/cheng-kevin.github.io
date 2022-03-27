@@ -144,6 +144,12 @@ a:focus, a:hover {
   /* text-shadow: 2px 2px #414141; */
 }
 
+figcaption{
+ text-align: center;
+ margin-top:-60px;
+ color:white;
+ background-color: rgba(0, 0, 0, 0.5);
+}
 .masthead .intro-body {
   display: table-cell;
   vertical-align: middle;
@@ -151,13 +157,21 @@ a:focus, a:hover {
 }
 
 .masthead .intro-body .brand-heading {
-  font-size: 50px;
-  margin-left:50%;
+  font-family: 'Ruthie', cursive;
+  font-size: 60px;
+  margin-left:40%;
+  line-height:1;
+
 }
 
 .masthead .intro-body .intro-text {
   font-size: 20px;
-  margin-left:50%;
+  margin-left:40%;
+  margin-top:20%;
+}
+
+.masthead .intro-body .intro-text i{
+  font-size: 17px;
 }
 
 /* .improve-contrast-box {
