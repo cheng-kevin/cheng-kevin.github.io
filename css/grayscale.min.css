@@ -92,7 +92,7 @@ a:focus, a:hover {
   background-color: transparent;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   #mainNav {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -180,20 +180,20 @@ a:focus, a:hover {
 }
 
 #imagegrid .columnside{
-  width:30%;
+  width:32%;
   margin-left:auto;
   margin-right:auto;
 }
 
 #imagegrid .columncenter{
-  width:30%;
+  width:32%;
   margin-left:0%;
   margin-right:0%;
 }
 
 #imagegrid .column img{
   max-width:100%;
-  padding:10px;
+  padding-bottom:30px;
 }
 
 .btn-circle {
@@ -392,6 +392,21 @@ ul.banner-social-buttons {
   }
 }
 
+@media(max-width:700px){
+  #imagegrid .columnside{
+    width:33%;
+    margin-left:0;
+    margin-right:0;
+    padding:0;
+  }
+  
+  #imagegrid .columncenter{
+    width:33%;
+    margin-left:0.5%;
+    margin-right:0.5%;
+    padding:0;
+  }
+}
 @media (max-width: 767px) {
   ul.banner-social-buttons li {
     display: block;
@@ -400,9 +415,6 @@ ul.banner-social-buttons {
   }
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
-  }
-  .sidebyside{
-    width:100%;
   }
 }
 
