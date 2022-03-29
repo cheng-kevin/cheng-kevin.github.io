@@ -140,9 +140,10 @@ a:focus, a:hover {
   height: auto;
   padding: 200px 0;
   text-align: center;
-  color: rgba(0, 0, 0, 0.7);
+  color: rgb(19, 15, 32 , 0.7);
   /* text-shadow: 2px 2px #414141; */
 }
+
 
 figcaption{
  text-align: center;
@@ -157,17 +158,35 @@ figcaption{
 }
 
 .masthead .intro-body .brand-heading {
-  font-family: 'Ruthie', cursive;
+  font-family: 'Alex Brush', cursive;
   font-size: 60px;
   margin-left:40%;
   line-height:1;
+  margin-top:15%;
+}
 
+.masthead .intro-body .brand-heading-2 {
+  font-family: 'Alex Brush', cursive;
+  font-size: 120px;
+  line-height:1;
+  margin-top:20%;
+  margin-bottom:20%;
 }
 
 .masthead .intro-body .intro-text {
   font-size: 20px;
   margin-left:40%;
-  margin-top:20%;
+  margin-top: 0%;
+  color:black;
+  letter-spacing: 0.25em;
+}
+
+.masthead .intro-body .intro-small {
+  font-size: 19px;
+  margin-left:40%;
+  margin-top: 0%;
+  color:black;
+  letter-spacing: 0.25em;
 }
 
 .masthead .intro-body .intro-text i{
@@ -180,16 +199,39 @@ figcaption{
   text-shadow: 0px 0px 0px rgba(0, 0, 0, 1);
 } */
 
+hr.style-eight {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #333; 
+  color: #333; 
+  /* border-top: medium double rgba(178,164,106,1);
+  color: rgba(178,164,106,1); */
+  text-align: center;
+
+ 
+  width:60%;
+  margin:auto;
+  margin-top:-20px;
+  margin-bottom:30px;
+}
+
+
 @media (min-width: 768px) {
   .masthead {
     height: 100%;
     padding: 0;
   }
   .masthead .intro-body .brand-heading {
-    font-size: 80px;
+    font-size: 150px;
+    margin-top:10%;
   }
   .masthead .intro-body .intro-text {
     font-size: 30px;
+    margin-top: 0%;
+  }
+  .masthead .intro-body .intro-small {
+    margin-top: 0%;
   }
 }
 
@@ -258,6 +300,10 @@ figcaption{
   -o-background-size: cover;
   background-size: cover;
   color: white;
+}
+
+.aboutheading{
+  margin-top:-60%;
 }
 #aboutus{
   text-align:center;
